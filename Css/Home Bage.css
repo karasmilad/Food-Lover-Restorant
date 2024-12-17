@@ -1,0 +1,465 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+header
+{
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(../practical/images/home_bg.jpeg);
+    background-size: cover;
+    height: 100vh;
+}
+nav
+{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+nav img
+{
+    width: 75px;
+    margin-left: 20px;
+}
+.mainnav ul
+{  
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+.mainnav ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 3px;
+}
+.mainnav ul li a:hover
+{
+    border-bottom: solid 3px #f77245;
+    transition: 100ms;
+}
+.hero
+{
+    margin-top: 200px;
+    text-align: center;
+}
+.hero h1
+{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.hero span
+{
+    color: #f77245;
+}
+.hero p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.hero button
+{
+    background: transparent;
+    padding: 10px 20px;
+    border: 1px white solid;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hero button:hover
+{
+    background-color: #f77245;
+    transform: scale(1.05);
+    transition: 200ms;
+}
+section .write
+{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+section .write h1
+{
+    color: #383848;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+section .write p
+{
+    color: #727291;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.main
+{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50PX;
+}
+.main p
+{
+    width: 80%;
+    color: #727291;
+}
+.main button
+{
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #383848;
+    border-radius: 15px;
+    border: none;
+    padding: 15px 20px;
+}
+.main button:hover
+{
+    background-color: #727291;
+    transform: scale(1.05);
+}
+.all
+{
+    background-image: url(../practical/images/offer-background.jpg);
+    padding-bottom: 60px;
+}
+.head h1
+{
+    padding-top: 60px;
+    text-align: center;
+    color: #f77245;
+}
+.head p
+{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.offers
+{
+    display: flex;
+    justify-content: space-around;
+}
+.offer
+{
+    width: 25%;
+}
+.offer h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.offer img
+{
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+.offer p
+{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.o
+{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.d
+{
+    margin-top: 3px;
+}
+.offer img:hover
+{
+    transform: scale(1.20);
+    transition: 200ms;
+}
+.headd h1
+{
+    margin-top: 60px;
+    margin-bottom: 15px;
+    color: #383848;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    letter-spacing: 1px;
+}
+.headd p
+{
+    color: #727291;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.images1
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.menu
+{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.items
+{
+    width: 90%;
+    display: flex;
+    margin-bottom: 50px;
+}
+.menuitems h3
+{
+    color: #383848;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+}
+.w
+{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.menuprice
+{
+    font-weight: bold;
+    color: #f77245;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.border
+{
+    border-bottom: #383848 dashed 1px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.menuitems .z
+{
+    margin-top: 10px;
+    color: #727291;
+}
+.p
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.button
+{
+    margin-top: 10px;
+    text-align: center;
+}
+.button button
+{
+    background-color: #f77245;
+    border: none;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.button button:hover
+{
+    transform: scale(1.05);
+    transition: 200ms;
+}
+.items img:hover
+{
+    transform: scale(1.10);
+    transition: 200;
+}
+.daytime
+{
+    padding-top: 100px;
+    background-image: url(../practical/images/daytime_bg.jpeg);
+    padding-bottom: 70px;
+}
+.time
+{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+}
+.aa
+{
+    text-align: center;
+    color: white;
+}
+.aa h2
+{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+.aa p
+{
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 10px;
+}
+.ourfood
+{
+    background-image: url(../practical/images/offer-background.jpg);
+    padding-bottom: 80px;
+}
+.headgallery
+{
+    padding-top: 70px;
+    font-size: 28px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.bb img
+{
+    width: 300px;
+    height: 220px;
+    border-radius: 20px;
+}
+.row1
+{
+    
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.row1 img
+{
+    margin-top: 50px;
+}
+.row1 img:hover
+{
+    transform: scale(1.05);
+}
+.row2 img:hover
+{
+    transform: scale(1.05);
+}
+.row2
+{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.row2 img
+{
+    margin-top: 30px;
+}
+footer
+{
+    padding-top: 100px;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+footer .fleft h1
+{
+    color: #383848;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.location
+{
+    display: flex;
+    gap: 10px;
+    color: #727291;
+}
+.call
+{
+    color: #727291;
+    display: flex;
+    gap: 10px;
+
+}
+.email
+{
+    color: #727291;
+    display: flex;
+    gap: 10px;
+}
+.addres a
+{
+    color: #f77245;
+}
+.addres
+{
+    margin-bottom: 40px;
+}
+.workhour p
+{
+    color: #727291;
+}
+.workhour
+{
+    margin-bottom: 40px;
+}
+.contact i
+{
+    font-size: 30px;
+}
+.contact a
+{
+    text-decoration: none;
+    margin-right: 5px;
+    color: #383848;
+}
+table input[type=text],[type=email],textarea
+{
+    width: 350px;
+    padding: 20px;
+    background-color: #ececec;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #727291;
+}
+table input[type=button]
+{
+    border: none;
+    background-color: #f77245;
+    padding: 15px 10px;
+    border-radius: 20px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+table input
+{
+    margin-bottom: 20px;
+}
+table input[type=button]:hover
+{
+    transform: scale(1.05);
+    transition: 100ms;
+}
